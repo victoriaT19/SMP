@@ -1,5 +1,28 @@
 -----
 
+para compilação:
+
+``` bash
+
+g++ -std=c++17 -Wall -Wextra -Wshadow -O2 seu_programa.cpp -o seu_programa
+
+```
+ou 
+
+``` bash
+
+g++ -std=c++17 -O2 seu_programa.cpp -o seu_programa
+
+```
+
+e executar:
+
+``` bash
+
+./seu_programa
+
+```
+
 ### 1\. Template Básico e Otimização de I/O (C++)
 
 Este é um ponto de partida comum. A otimização de I/O (`ios_base::sync_with_stdio(0); cin.tie(0);`) é crucial para evitar Time Limit Exceeded (TLE) em problemas com muita entrada/saída.
